@@ -82,3 +82,4 @@ footer {
   </main>  <footer>© 2025 OrnekSite</footer>
 </body>
 </html>
+
