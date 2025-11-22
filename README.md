@@ -34,5 +34,6 @@ Yapı kodları
 
 </body>
 </html>
+print("merhaba")
 
 
