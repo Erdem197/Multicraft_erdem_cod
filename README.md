@@ -36,5 +36,28 @@ Yapı kodları
 </html>
 
 <h1> merhaba hoşgeldiniz<h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Ad Alma</title>
+</head>
+<body>
 
+  <h1>Adını yaz:</h1>
+  
+  <input id="ad" type="text" placeholder="Adın">
+  <button onclick="goster()">Gönder</button>
+
+  <h2 id="sonuc"></h2>
+
+  <script>
+    function goster() {
+      const isim = document.getElementById("ad").value;
+      document.getElementById("sonuc").textContent = "Merhaba " + isim + "!";
+    }
+  </script>
+
+</body>
+</html>
 
