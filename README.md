@@ -34,6 +34,7 @@ Yapı kodları
 
 </body>
 </html>
-print("merhaba")
+
+<h1> merhaba hoşgeldiniz<h1>
 
 
